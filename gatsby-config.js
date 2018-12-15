@@ -4,6 +4,9 @@ module.exports = {
     title: 'Jayanth Kanugo',
     description: 'Frontend web developer, Activist, Bibilophile',
     author: '@gatsbyjs',
+    twitter: 'https://twitter.com/imcopypasta',
+    github: 'https://github.com/imcopypasta',
+    linkedin: 'https://linkedin.com/in/imjayanthka',
     projects: [
       {
         id: '1',

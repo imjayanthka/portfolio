@@ -60,7 +60,7 @@
 }
 
 .home-links {
-  order: 4;
+  order: 5;
 
   display: flex;
   flex-flow: row wrap;
@@ -68,6 +68,19 @@
 }
 
 .home-links a {
+  text-decoration-line: underline;
+  text-decoration-style: wavy;
+}
+
+.social-links {
+  order: 4;
+
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-around;
+}
+
+.social-links a {
   text-decoration-line: underline;
   text-decoration-style: wavy;
 }
@@ -84,9 +97,9 @@
 
 .home-resume {
   order: 3;
+  margin-right: 10px;
 }
 
 .home-travel-log {
   order: 4;
-  width: 30%;
 }

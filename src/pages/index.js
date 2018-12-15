@@ -33,6 +33,8 @@ const Home = () => (
           <h3>Activist</h3>
         </div>
       </div>
+      <SocialMediaLinks />
+      <div />
       <HomeLinks />
     </div>
   </div>
@@ -53,6 +55,25 @@ const HomeLinks = () => {
       {/* <div className="home-travel-log">
         <Link to="/travel-log">Travel Log</Link>
       </div> */}
+    </div>
+  )
+}
+
+const SocialMediaLinks = () => {
+  return (
+    <div className="social-links">
+      <div className="home-about-me">
+        <a href="https://twitter.com/imcopypasta">Twitter</a>
+      </div>
+      <div className="home-projects">
+        <a href="https://github.com/imjayanthka">Github</a>
+      </div>
+      <div className="home-resume">
+        <a href="https://linkedin.com/in/imjayanthka">LinkedIn</a>
+      </div>
+      <div className="home-travel-log">
+        <a href="mailto:imjayanthka@gmail.com">Email</a>
+      </div>
     </div>
   )
 }
