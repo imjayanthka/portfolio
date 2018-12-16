@@ -20,8 +20,12 @@ const Home = () => (
         <img src={img} alt="Profile Image" />
       </div>
       <div className="home-name">
+        <h3>🙈🙉🙊</h3>
+      </div>
+      <div className="home-logo">
         <h1>Jayanth Kanugo</h1>
       </div>
+
       <div className="home-desc">
         <div className="desc-1">
           <h3>Frontend Web Developer</h3>
